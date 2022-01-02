@@ -1,0 +1,53 @@
+{
+  "tmux": {
+    "name": "tmux",
+    "commands": [
+      {
+        "key": "Ctrl+A, c",
+        "command": "Create new window"
+      },
+      {
+        "key": "Ctrl+A, w",
+        "command": "List windows"
+      },
+      {
+        "key": "Ctrl+A, d",
+        "command": "Detach"
+      },
+      {
+        "key": "Ctrl+A, t",
+        "command": "Big Clock"
+      }
+    ]
+  },
+  "sway": {
+    "name": "sway",
+    "commands": [
+      {
+        "key": "Super+<CR>",
+        "command": "Open terminal"
+      },
+      {
+        "key": "Super+d",
+        "command": "Programs"
+      },
+      {
+        "key": "Super+Shift+c",
+        "command": "Reload Config"
+      }
+    ]
+  },
+  "vim": {
+    "name": "vim",
+    "commands": [
+      {
+        "key": "Ctrl+w, v",
+        "command": "Split window vertically"
+      },
+      {
+        "key": "Ctrl+w, i",
+        "command": "Split window horizontally"
+      }
+    ]
+  }
+}
